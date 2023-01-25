@@ -1,0 +1,33 @@
+# Wordpress
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Allow: /wp-content/uploads/
+
+# Joomla
+User-agent: *
+Disallow: /administrator/
+Disallow: /cache/
+Disallow: /components/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /language/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /templates/
+Allow: /images/stories/
+
+# Laravel
+User-agent: *
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /node_modules/
+
+# React
+User-agent: *
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /public/
