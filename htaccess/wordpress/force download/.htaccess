@@ -1,0 +1,6 @@
+## Force donwload specific file type.
+
+<FilesMatch "\.(ovpn)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>

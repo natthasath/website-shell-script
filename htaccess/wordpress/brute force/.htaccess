@@ -1,0 +1,39 @@
+# Protect wp-login.php from Brute Force Attacks
+<Files wp-login.php>
+  Order Deny,Allow
+  Deny from all
+  # Whitelist your IP address
+  Allow from xxx.xxx.xxx.xxx
+  # Whitelist your office IP address
+  Allow from xxx.xxx.xxx.xxx
+</Files>
+
+# Block access to xmlrpc.php
+<Files xmlrpc.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Protect .htaccess file
+<Files .htaccess>
+  Order Allow,Deny
+  Deny from all
+</Files>
+
+# Block access to readme.html
+<Files readme.html>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Block access to wp-config.php
+<Files wp-config.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Block access to license.txt
+<Files license.txt>
+  Order Deny,Allow
+  Deny from all
+</Files>

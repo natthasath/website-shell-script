@@ -1,0 +1,37 @@
+# Protect Joomla against Brute Force Attacks
+
+# Block XML-RPC request
+<Files xmlrpc.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Block access to .htaccess file
+<Files .htaccess>
+  Order Allow,Deny
+  Deny from all
+</Files>
+
+# Block access to configuration.php file
+<Files configuration.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Block access to readme.html
+<Files readme.html>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Block access to license.txt
+<Files license.txt>
+  Order Deny,Allow
+  Deny from all
+</Files>
+
+# Block access to administrator/index.php
+<Files administrator/index.php>
+  Order Deny,Allow
+  Deny from all
+</Files>
