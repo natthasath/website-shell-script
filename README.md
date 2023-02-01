@@ -13,3 +13,10 @@ A website shell script automates the setup of a basic website, including file st
 | Broken Dead Link | [https://www.deadlinkchecker.com/](https://www.deadlinkchecker.com/) |
 | Convert PDF to EPUB | [https://convertio.co/pdf-epub/](https://convertio.co/pdf-epub/) |
 | Flip Book Maker | [https://fliphtml5.com/](https://fliphtml5.com/) |
+
+### 🔎 SEO
+
+| Tool | Url |
+| --- | --- |
+| Semrush | [https://www.semrush.com/](https://www.semrush.com/) |
+| ahrefs | [https://ahrefs.com/](https://ahrefs.com/) |
