@@ -12,7 +12,15 @@ A website shell script automates the setup of a basic website, including file st
   - [Google Analytics](https://analytics.google.com/)
 - Backlink
 - Deadlink
+- Sitemap
+- Page Rank
 - Meta Data
+- Short URL
+- Multiple Language
+- Search Engine Bot
+- Cookie Consent Banner
+
+___
 
 ### ⚒️ Tools
 
@@ -22,9 +30,12 @@ A website shell script automates the setup of a basic website, including file st
 | Convert PDF to EPUB | [https://convertio.co/pdf-epub/](https://convertio.co/pdf-epub/) |
 | Flip Book Maker | [https://fliphtml5.com/](https://fliphtml5.com/) |
 
+___
+
 ### 🔎 SEO
 
 | Tool | Url |
 | --- | --- |
 | Semrush | [https://www.semrush.com/](https://www.semrush.com/) |
 | ahrefs | [https://ahrefs.com/](https://ahrefs.com/) |
+| Check PageRank | [https://checkpagerank.net/](https://checkpagerank.net/) |
