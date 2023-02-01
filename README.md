@@ -6,6 +6,14 @@ A website shell script automates the setup of a basic website, including file st
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
+### ⭐ Features
+
+- Analytics
+  - [Google Analytics](https://analytics.google.com/)
+- Backlink
+- Deadlink
+- Meta Data
+
 ### ⚒️ Tools
 
 | Tool | Url |
