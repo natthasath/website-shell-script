@@ -6,6 +6,12 @@ A website shell script automates the setup of a basic website, including file st
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
+### ⚓ Developer Tool
+
+- [Broken Dead Link](https://www.deadlinkchecker.com/)
+- [Convert PDF to EPUB](https://convertio.co/pdf-epub/)
+- [Flip Book Maker](https://fliphtml5.com/)
+
 ### ⭐ Features
 
 - Analytics
@@ -22,23 +28,12 @@ A website shell script automates the setup of a basic website, including file st
 - Security
   - Brute Force (.htaccess)
   - DDoS - DDos Protection ex. Cloudflare, Government Website Protection System (GWP)
-
-___
-
-### ⚒️ Tools
-
-| Tool | Url |
-| --- | --- |
-| Broken Dead Link | [https://www.deadlinkchecker.com/](https://www.deadlinkchecker.com/) |
-| Convert PDF to EPUB | [https://convertio.co/pdf-epub/](https://convertio.co/pdf-epub/) |
-| Flip Book Maker | [https://fliphtml5.com/](https://fliphtml5.com/) |
-
-___
+  - Backdoor
 
 ### 🔎 SEO
 
-| Tool | Url |
-| --- | --- |
-| Semrush | [https://www.semrush.com/](https://www.semrush.com/) |
-| ahrefs | [https://ahrefs.com/](https://ahrefs.com/) |
-| Check PageRank | [https://checkpagerank.net/](https://checkpagerank.net/) |
+| Tool            | Url                                                       |
+| --------------- | --------------------------------------------------------- |
+| Semrush         | [https://www.semrush.com/](https://www.semrush.com/)      |
+| ahrefs          | [https://ahrefs.com/](https://ahrefs.com/)                |
+| Check PageRank  | [https://checkpagerank.net/](https://checkpagerank.net/)  |
