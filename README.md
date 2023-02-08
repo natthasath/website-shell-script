@@ -32,8 +32,9 @@ A website shell script automates the setup of a basic website, including file st
 
 ### 🔎 SEO
 
-| Tool            | Url                                                       |
-| --------------- | --------------------------------------------------------- |
-| Semrush         | [https://www.semrush.com/](https://www.semrush.com/)      |
-| ahrefs          | [https://ahrefs.com/](https://ahrefs.com/)                |
-| Check PageRank  | [https://checkpagerank.net/](https://checkpagerank.net/)  |
+| Tool            | Url                                                                            |
+| --------------- | ------------------------------------------------------------------------------ |
+| Semrush         | [https://www.semrush.com/](https://www.semrush.com/)                           |
+| ahrefs          | [https://ahrefs.com/](https://ahrefs.com/)                                     |
+| Check PageRank  | [https://checkpagerank.net/](https://checkpagerank.net/)                       |
+| QR Code         | [https://www.the-qrcode-generator.com/](https://www.the-qrcode-generator.com/) |
