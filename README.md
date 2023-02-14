@@ -11,6 +11,7 @@ A website shell script automates the setup of a basic website, including file st
 - [Broken Dead Link](https://www.deadlinkchecker.com/)
 - [Convert PDF to EPUB](https://convertio.co/pdf-epub/)
 - [Flip Book Maker](https://fliphtml5.com/)
+- [Cloudflare DDoS Protection](https://www.cloudflare.com/ddos/)
 
 ### ⭐ Features
 
@@ -38,3 +39,7 @@ A website shell script automates the setup of a basic website, including file st
 | ahrefs          | [https://ahrefs.com/](https://ahrefs.com/)                                     |
 | Check PageRank  | [https://checkpagerank.net/](https://checkpagerank.net/)                       |
 | QR Code         | [https://www.the-qrcode-generator.com/](https://www.the-qrcode-generator.com/) |
+
+### 🎲 Hacking Tool
+
+- [DDoS Ripper](https://github.com/palahsu/DDoS-Ripper)
