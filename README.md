@@ -26,6 +26,7 @@ A website shell script automates the setup of a basic website, including file st
 - Multiple Language
 - Search Engine Bot
 - Cookie Consent Banner
+- SSL Certificate
 - Security
   - Brute Force (.htaccess)
   - DDoS - DDos Protection ex. Cloudflare, Government Website Protection System (GWP)

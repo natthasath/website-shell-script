@@ -1,0 +1,51 @@
+# curl -v https://google.com
+
+* About to connect() to google.com port 443 (#0)
+*   Trying 74.125.24.139... connected
+* Connected to google.com (74.125.24.139) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSLv3, TLS handshake, Client hello (1):
+* SSLv3, TLS handshake, Server hello (2):
+* SSLv3, TLS handshake, CERT (11):
+* SSLv3, TLS handshake, Server finished (14):
+* SSLv3, TLS handshake, Client key exchange (16):
+* SSLv3, TLS change cipher, Client hello (1):
+* SSLv3, TLS handshake, Finished (20):
+* SSLv3, TLS change cipher, Client hello (1):
+* SSLv3, TLS handshake, Finished (20):
+* SSL connection using AES128-SHA
+* Server certificate:
+*        subject: CN=*.google.com
+*        start date: 2023-02-08 04:34:30 GMT
+*        expire date: 2023-05-03 04:34:29 GMT
+*        subjectAltName: google.com matched
+*        issuer: C=US; O=Google Trust Services LLC; CN=GTS CA 1C3
+*        SSL certificate verify ok.
+> GET / HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15
+> Host: google.com
+> Accept: */*
+>
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.google.com/
+< Content-Type: text/html; charset=UTF-8
+< Date: Wed, 01 Mar 2023 04:18:58 GMT
+< Expires: Fri, 31 Mar 2023 04:18:58 GMT
+< Cache-Control: public, max-age=2592000
+< Server: gws
+< Content-Length: 220
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+<
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/">here</A>.
+</BODY></HTML>
+* Connection #0 to host google.com left intact
+* Closing connection #0
+* SSLv3, TLS alert, Client hello (1):

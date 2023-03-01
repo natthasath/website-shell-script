@@ -1,0 +1,13 @@
+# curl -I https://google.com
+
+HTTP/1.1 301 Moved Permanently
+Location: https://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 01 Mar 2023 04:19:55 GMT
+Expires: Fri, 31 Mar 2023 04:19:55 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 220
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
