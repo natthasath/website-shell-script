@@ -17,6 +17,8 @@ A website shell script automates the setup of a basic website, including file st
 
 - Analytics
   - [Google Analytics](https://analytics.google.com/)
+  - [Google Search Console](https://search.google.com/)
+  - [Microsoft Bing Webmaster Tools](https://www.bing.com/webmasters/)
 - Backlink
 - Deadlink
 - Sitemap
