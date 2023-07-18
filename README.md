@@ -55,3 +55,13 @@ A website shell script automates the setup of a basic website, including file st
 joomla : $2y$10$fRGvzIDKysVdCAHPL/9vC.bYINroTBWf/YbTMr0TjLGduqap6Blq2
 wordpress : $P$BU1gC4Fhs2qThPJgO3qEPSgtl.K21V/
 ```
+
+### 🌬️ Custom PHP
+
+```
+upload_max_filesize = 8G
+post_max_size = 8G
+memory_limit = 2G
+max_execution_time = 0
+max_input_time = 0
+```
