@@ -31,3 +31,7 @@ User-agent: *
 Disallow: /build/
 Disallow: /node_modules/
 Disallow: /public/
+
+# ChatGPT
+User-agent: GPTBot
+Disallow: /
