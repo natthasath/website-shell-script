@@ -1,3 +1,16 @@
+# Enable Rewrite Engine
 RewriteEngine On
+RewriteBase /
+
+# Redirect HTTP to HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Hide /wordpress from the URL
+RewriteCond %{REQUEST_URI} !^/wordpress/
+RewriteRule ^(.*)$ /wordpress/$1 [L]
+
+# Fix wordpress admin Redirect
+RewriteCond %{QUERY_STRING} ^redirect_to=(.*%2F)wordpress(%2F.*)$ [NC]
+#RewriteRule ^wp-login\.php$ /wp-login.php?redirect_to=%1%2 [R=301,L]
+RewriteRule ^wp-login\.php$ /wp-login.php?redirect_to=https://%{HTTP_HOST}/wp-admin/&reauth=1 [R=301,L]
