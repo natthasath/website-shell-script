@@ -59,9 +59,10 @@ wordpress : $P$BU1gC4Fhs2qThPJgO3qEPSgtl.K21V/
 ### 🌬️ Custom PHP
 
 ```
-upload_max_filesize = 8G
 post_max_size = 8G
-memory_limit = 2G
-max_execution_time = 0
-max_input_time = 0
+upload_max_filesize = 8G
+memory_limit = 256M
+max_execution_time = 360
+max_input_time = 360
+max_input_vars = 3000
 ```
