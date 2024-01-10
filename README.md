@@ -66,3 +66,23 @@ max_execution_time = 360
 max_input_time = 360
 max_input_vars = 3000
 ```
+
+### 🥏 Manual Backup
+
+- Backup the database
+
+```shell
+mysqldump -u root -p database_name > db.sql
+```
+
+- Compress the website
+
+```shell
+tar -czvf web.tar.gz /web
+```
+
+- Extract the website
+
+```shell
+tar -xzvf web.tar.gz
+```
