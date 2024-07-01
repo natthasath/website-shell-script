@@ -69,10 +69,16 @@ max_input_vars = 3000
 
 ### 🥏 Manual Backup
 
-- Backup the database
+- Export database
 
 ```shell
 mysqldump -u root -p database_name > db.sql
+```
+
+- Import database
+
+```shell
+mysql -u root -p database_name < db.sql
 ```
 
 - Compress the website
