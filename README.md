@@ -92,3 +92,9 @@ tar -czvf web.tar.gz /web
 ```shell
 tar -xzvf web.tar.gz
 ```
+
+### 🎏 Tuning
+
+- [PageSpeed Insights](https://pagespeed.web.dev/)
+- [GTmetrix](https://gtmetrix.com/)
+- [Pingdom](https://tools.pingdom.com/)
