@@ -56,6 +56,12 @@ joomla : $2y$10$fRGvzIDKysVdCAHPL/9vC.bYINroTBWf/YbTMr0TjLGduqap6Blq2
 wordpress : $P$BU1gC4Fhs2qThPJgO3qEPSgtl.K21V/
 ```
 
+### 🎭 Open Link with Translate
+
+```
+<a href="https://translate.google.com/translate?hl=en&sl=th&u=https://www.example.com" target="_blank">Link</a>
+```
+
 ### 🌬️ Custom PHP
 
 ```
