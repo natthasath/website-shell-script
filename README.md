@@ -99,8 +99,13 @@ tar -czvf web.tar.gz /web
 tar -xzvf web.tar.gz
 ```
 
-### 🎏 Tuning
+### 🎏 Tool
 
 - [PageSpeed Insights](https://pagespeed.web.dev/)
 - [GTmetrix](https://gtmetrix.com/)
 - [Pingdom](https://tools.pingdom.com/)
+- [Zed Attack Proxy (ZAP)](https://www.zaproxy.org/)
+- [DNS Checker](https://dnschecker.org/)
+- [THNIC WHOIS](https://www.thnic.co.th/whois)
+- [THNIC Punnycode](https://www.thnic.co.th/punycode)
+- [THNIC WebDirectory](https://www.thnic.co.th/web-directory)
