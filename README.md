@@ -62,17 +62,6 @@ wordpress : $P$BU1gC4Fhs2qThPJgO3qEPSgtl.K21V/
 <a href="https://translate.google.com/translate?hl=en&sl=th&u=https://www.example.com" target="_blank">Link</a>
 ```
 
-### 🌬️ Custom PHP
-
-```
-post_max_size = 8G
-upload_max_filesize = 8G
-memory_limit = 256M
-max_execution_time = 360
-max_input_time = 360
-max_input_vars = 3000
-```
-
 ### 🥏 Manual Backup
 
 - Export database
