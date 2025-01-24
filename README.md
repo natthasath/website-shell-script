@@ -56,6 +56,12 @@ joomla : $2y$10$fRGvzIDKysVdCAHPL/9vC.bYINroTBWf/YbTMr0TjLGduqap6Blq2
 wordpress : $P$BU1gC4Fhs2qThPJgO3qEPSgtl.K21V/
 ```
 
+### 🔓 Unlock User or IP (AIOS)
+
+```
+prefix_aiowps_login_lockdown
+```
+
 ### 🎭 Open Link with Translate
 
 ```
