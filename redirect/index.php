@@ -1,6 +1,6 @@
 <?php
 
-header('location:https://codeinsane.wordpress.com/');
+header('location:https://nida.ac.th/');
 exit();
 
 ?>
