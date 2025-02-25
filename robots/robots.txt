@@ -36,27 +36,80 @@ Disallow: /public/
 User-agent: GPTBot
 Disallow: /
 
+# Sitemap
 Sitemap: https://nida.ac.th/sitemap.xml
 
-# Prevent search engines from indexing specific keywords
-Disallow: /*%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95*  # เธชเธฅเนเธญเธ•
-Disallow: /*%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%95%E0%B8%9F%E0%B8%A3%E0%B8%B5*  # เน€เธเธฃเธ”เธดเธ•เธเธฃเธต
-Disallow: /*%E0%B8%AB%E0%B8%A7%E0%B8%A2%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C*  # เธซเธงเธขเธญเธญเธเนเธฅเธเน
-Disallow: /*%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99*  # เน€เธงเนเธเธเธเธฑเธ
-Disallow: /*%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B9%82%E0%B8%99*  # เธเธฒเธชเธดเนเธ
-Disallow: /*%E0%B8%9A%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2*  # เธเธฒเธเธฒเธฃเนเธฒ
-Disallow: /*%E0%B9%81%E0%B8%97%E0%B8%87%E0%B8%9A%E0%B8%AD%E0%B8%A5*  # เนเธ—เธเธเธญเธฅ
-Disallow: /*%E0%B9%82%E0%B8%9B%E0%B9%8A%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C*  # เนเธเนเธเน€เธเธญเธฃเน
-Disallow: /*%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AA%E0%B9%8C%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C*  # เน€เธเธกเธชเนเธญเธญเธเนเธฅเธเน
-Disallow: /*%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C*  # เธเธเธฑเธเธญเธญเธเนเธฅเธเน
-Disallow: /*%E0%B9%82%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%AA%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B9%82%E0%B8%99*  # เนเธเธเธฑเธชเธเธฒเธชเธดเนเธ
-Disallow: /*%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%AA*  # เธเธฒเธชเธดเนเธเนเธเธเธฑเธช
-Disallow: /*%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C*  # เธชเธฅเนเธญเธ•เธญเธญเธเนเธฅเธเน
-Disallow: /*bet*
-Disallow: /*casino*
-Disallow: /*lotto*
-Disallow: /*gambling*
-Disallow: /*slot*
-Disallow: /*freecredit*
-Disallow: /*poker*
-Disallow: /*Baccarat*
+# Prevent search engines from indexing specific keywords (EN)
+Disallow: */casino*
+Disallow: */bet*
+Disallow: */gambling*
+Disallow: */poker*
+Disallow: */slot*
+Disallow: */sports-betting*
+Disallow: */roulette*
+Disallow: */blackjack*
+Disallow: */baccarat*
+Disallow: */lottery*
+Disallow: */jackpot*
+Disallow: */wager*
+Disallow: */odds*
+Disallow: */bookmaker*
+Disallow: */spread-betting*
+Disallow: */craps*
+Disallow: */keno*
+Disallow: */rummy*
+Disallow: */bingo*
+Disallow: */scratchcard*
+Disallow: */virtual-sports*
+Disallow: */esports-betting*
+Disallow: */horse-racing*
+Disallow: */greyhound-racing*
+Disallow: */fixed-odds*
+Disallow: */parlay*
+Disallow: */handicap-betting*
+Disallow: */moneyline*
+Disallow: */prop-bet*
+Disallow: */futures-bet*
+Disallow: */live-betting*
+Disallow: */spread*
+Disallow: */over-under*
+Disallow: */teaser*
+Disallow: */exotic-bet*
+Disallow: */arbitrage-betting*
+Disallow: */high-roller*
+Disallow: */free-spins*
+Disallow: */no-deposit*
+Disallow: */bonus-code*
+Disallow: */casino-review*
+Disallow: */betting-tips*
+Disallow: */gambling-strategy*
+Disallow: */poker-strategy*
+Disallow: */roulette-strategy*
+Disallow: */blackjack-strategy*
+Disallow: */baccarat-strategy*
+
+# Prevent search engines from indexing specific keywords (TH)
+User-agent: *
+Disallow: */%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B9%82%E0%B8%99*       # คาสิโน
+Disallow: */%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99*                         # พนัน
+Disallow: */%E0%B9%81%E0%B8%97%E0%B8%87%E0%B8%9A%E0%B8%AD%E0%B8%A5*       # แทงบอล
+Disallow: */%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95*               # สล็อต
+Disallow: */%E0%B9%82%E0%B8%9B%E0%B9%8A%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C* # โป๊กเกอร์
+Disallow: */%E0%B8%9A%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2* # บาคาร่า
+Disallow: */%E0%B8%AB%E0%B8%A7%E0%B8%A2*                                 # หวย
+Disallow: */%E0%B9%81%E0%B8%88%E0%B9%87%E0%B8%84%E0%B8%9E%E0%B8%AD%E0%B8%95* # แจ็คพอต
+Disallow: */%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99* # เดิมพัน
+Disallow: */%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%AD%E0%B8%87* # อัตราต่อรอง
+Disallow: */%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%97%E0%B8%87* # เจ้ามือรับแทง
+Disallow: */%E0%B9%81%E0%B8%97%E0%B8%87%E0%B8%A1%E0%B9%89%E0%B8%B2*       # แทงม้า
+Disallow: */%E0%B9%81%E0%B8%97%E0%B8%87%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%8A%E0%B8%99* # แทงไก่ชน
+Disallow: */%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2* # พนันกีฬา
+Disallow: */%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C* # พนันออนไลน์
+Disallow: */%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99* # เกมพนัน
+Disallow: */%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B9%82%E0%B8%8A%E0%B8%84* # เสี่ยงโชค
+Disallow: */%E0%B9%82%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%AA%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B9%82%E0%B8%99* # โบนัสคาสิโน
+Disallow: */%E0%B8%9F%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%9B%E0%B8%B4%E0%B8%99* # ฟรีสปิน
+Disallow: */%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2* # สูตรบาคาร่า
+Disallow: */%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99* # เทคนิคพนัน
+Disallow: */%E0%B8%81%E0%B8%A5%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%8C%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99* # กลยุทธ์พนัน
+Disallow: */%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B9%82%E0%B8%99* # วิธีเล่นคาสิโน
