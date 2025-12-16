@@ -67,6 +67,12 @@ prefix_aiowps_login_lockdown
 ```
 <a href="https://translate.google.com/translate?hl=en&sl=th&u=https://www.example.com" target="_blank">Link</a>
 ```
+### 🕸️ Export Sitemap
+
+```shell
+npm install -g sitemap-generator-cli
+sitemap-generator https://example.com --output-directory ./sitemaps/example
+```
 
 ### 🥏 Manual Backup
 
